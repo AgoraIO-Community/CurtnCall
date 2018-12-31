@@ -1,0 +1,127 @@
+.axis line {
+  fill: none;
+}
+
+.axis text {
+  fill: #7d7d7d;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-stretch: condensed;
+  font-size: 1.5em;
+}
+
+.grid-line line {
+  stroke: white;
+  shape-rendering: crispEdges;
+}
+
+#annualYieldsChart {
+  margin: 200;
+  padding: 10px 0 0;
+}
+#annualYieldsChart .title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#annualYieldsChart .line {
+  stroke-width: 3px;
+}
+#annualYieldsChart .grid-background {
+  fill: #f9f9f9;
+}
+#annualYieldsChart .grid .tick {
+  stroke: #fff;
+  stroke-opacity: 0.7;
+  shape-rendering: crispEdges;
+}
+#annualYieldsChart .grid path {
+  stroke-width: 1;
+  opacity: 0.7;
+  stroke: #fff;
+}
+.annual-yields-year-axis {
+  position: relative;
+  width: 100%;
+  margin: 70px 0 0 0;
+  clear: both;
+  height: 32px;
+  -webkit-box-shadow: 0px 10px 4px 0px rgba(209, 209, 209, 1);
+  -moz-box-shadow: 0px 10px 4px 0px rgba(209, 209, 209, 1);
+  box-shadow: 0px 10px 4px 0px rgba(209, 209, 209, 1);
+}
+.annual-yields-year-axis ul {
+  margin: 0 0 0 80px;
+  list-style-type: none;
+}
+.annual-yields-year-axis li {
+  float: left;
+  width: 22px;
+  margin: 0;
+  padding: 0 0 3px 1px;
+  border-bottom: 14px solid #ebf3f5;
+  color: #b6b6b6;
+  font-size: 22px;
+  text-align: center;
+}
+.annual-yields-year-axis span {
+  display: inline-block;
+  text-indent: -99999em;
+}
+.annual-yields-year-axis span.marked {
+  text-indent: 0;
+}
+#annualYieldsChart .axis path,
+#annualYieldsChart .axis line {
+  fill: none;
+  stroke: none;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+#annualYieldsChart .yAxis line {
+  opacity: 0;
+}
+#annualYieldsChart .overlay {
+  fill: none;
+  pointer-events: all;
+}
+#annualYieldsChart .focus circle {
+  fill: none;
+}
+#annualYieldsChart .axis path,
+#annualYieldsChart .axis line {
+  fill: none;
+  stroke: #f8f8f8;
+  shape-rendering: crispEdges;
+}
+#annualYieldsChart .x.axis line {
+  fill: none;
+  stroke: #e4e4e4;
+  shape-rendering: crispEdges;
+  opacity: 0;
+}
+#annualYieldsChart path.domain {
+  opacity: 0;
+}
+.annual-yield-chart-divider {
+  margin: 25px auto 20px;
+}
+#annualYieldsChart .x text {
+  fill: #7d7d7d;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-stretch: condensed;
+  font-size: 11px;
+}
+#annualYieldsChart .annual-yield-grid-background {
+  fill: #f1f1f1;
+}
+#annualYieldsChart .year-legend {
+  text-transform: none;
+  font-weight: normal;
+}
+#annualYieldsChart .legend-grade text {
+  font-weight: bold;
+  text-transform: normal;
+}
+#annualYieldsChart .legend-controls-annual-yields text {
+  font-weight: bold;
+  text-transform: normal;
+}

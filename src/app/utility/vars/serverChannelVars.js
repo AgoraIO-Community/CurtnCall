@@ -1,0 +1,31 @@
+const serverChannelVars = [
+  "agoraId",
+  "agoraAccessToken",
+  "adminPulledPlug",
+  "audiencePulledPlug",
+  "currentPerformer",
+  "channelSegment",
+  "lineup",
+  "nextPerformer",
+  "performanceDuration",
+  "performanceId",
+  "performanceReady",
+  "performanceStart",
+  "performanceEnd",
+  "previousPerformer",
+  "reactionCounts",
+  "reactionTimeout",
+  "show",
+  "showRequired",
+  "userInLineup",
+  "userIsCurrentPerformer",
+  "userIsNextPerformer",
+  "userIsPreviousPerformer",
+  "viewers",
+  "viewerCount",
+  "viewerStateCount",
+  "votingEnd",
+  "votingStart"
+];
+
+export default serverChannelVars;
